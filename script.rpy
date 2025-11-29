@@ -858,7 +858,7 @@ label start:
          play sound badumtss
 
          t "Kaeya, give me a present!"
-         #aquagon will kill me for the joke X_X (save me please)
+         #aquagon_drag will kill me for the joke X_X (save me please)
          k "Give you... a present?"
 
          k "{cps=25}I didn't know you were such a...{w=1.5} joker!{/cps}"
@@ -872,6 +872,7 @@ label start:
          scn "Instead, what Traveler might have heard was {font=hymmnos.ttf}Rrha yea ra hymme meo clemezen{/font}. You can learn more about this phrase {a=https://youtu.be/NDtO2rMv6QY?t=293}here{/a} or {a=https://hymmnoserver.uguu.ca/search.php?word=Rrha+yea+ra+hymme+meo+clemezen}here{/a}"
 
          scn "Uh-uh, Professor will probably cook me for it, so Cyn-ing out! ^_*"
+         #look at the note under "Kaeya, give me a present!" That's Professor
          #And I'm also sorry for writing Cyno instead of Razor, cuz I happen to have moar Cyno jokes!
          jump dayend
 
@@ -1364,3 +1365,4 @@ label start:
      scn "With love, mlka"
 
      $ renpy.quit()
+
