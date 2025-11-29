@@ -11,6 +11,7 @@ init python:
      "YATTA!",
      "If you feel the writing level degradation, report to the Dev ASAP",
      "This game is unnoficial fanwork affilated with one of Cyno's jokes",
+     "{font=hymmnos.ttf}Was yea ra yart yor, ar ciel{/font}"
      #Further plans:
      #1. Add time-limited disclaimers (idk if it's possible)
      ])
@@ -66,6 +67,7 @@ label splashscreen:
 #     label ps:
 
 #     "Please, don't take it lightly, as despite being a work of fiction, the game uncovers its topics as realistically as possible, which might be not comfortable for certain individuals."
+
 
      "By playing [config.name] you agree that you have friendship level 6 Kaeya, at least 13 years old and consent to any spoilers and highly disturbing content contained within."
 
@@ -127,7 +129,7 @@ label splashscreen:
              yalign 0.5
      else:
 
-         show text "This game is an unofficial fan work unaffiliated with HoYoverse" with dissolve:
+         show text "This game is an unofficial fan work unaffiliated with HoYoverse/Cognosphere" with dissolve:
              xalign 0.5
              yalign 0.5
 
